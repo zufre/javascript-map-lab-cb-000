@@ -20,6 +20,8 @@ var sortedRobots = robots.map(function (robot) {
   }
 
 })
+console.log(sortedRobots)
+
 
 const zebraStripes = [
   { width: 9.12, color: null },
