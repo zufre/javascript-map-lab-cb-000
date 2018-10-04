@@ -20,7 +20,7 @@ var sortedRobots = robots.map(function (robot.name ) {
   }
 
 })
-console.log(sortedRobots)
+
 
 
 const zebraStripes = [
