@@ -10,6 +10,16 @@ const robots = [
   { name: 'Ironhide', alliance: null },
   { name: 'Ratchet', alliance: null }
 ];
+var sortedRobots = robots.map(function (robot) {
+  if (knownDecepticons.includes(robot)) {
+    return Object.assign ( {},
+    robot, { alliance: 'decepticon'})
+  }else{
+    return Object.assign ( {},
+    robot, { alliance : 'autobot'})
+  }
+  
+})
 
 const zebraStripes = [
   { width: 9.12, color: null },
