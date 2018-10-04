@@ -18,7 +18,7 @@ var sortedRobots = robots.map(function (robot) {
     return Object.assign ( {},
     robot, { alliance : 'autobot'})
   }
-  
+
 })
 
 const zebraStripes = [
